@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-underwave: #121019;
+    --color-underwave-dark: #09080d;
+    --color-underwave-accent: #fa1e4e;
+
+    --color-discord: #1a1a1e;
+    --color-discord-dark: #121214;
+    --color-discord-accent: #4c97f0;
+}
+
+@utility container {
+    margin: auto;
+}
