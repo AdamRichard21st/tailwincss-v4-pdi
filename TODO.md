@@ -10,11 +10,11 @@
 - [ok] Detecção de conteúdo (@source)
 - [ok] @plugin
 - [ok] Consultas de contêiner
-- [~] Variante @max-*
-- [~] Variantes @min-* / @max-*
-- [~] APIs de transformação 3D
-- [~] APIs de gradiente
-- [~] inset-shadow-* / inset-ring-*
-- [~] Paleta de cores P3 modernizada
+- [ok] Variante @max-*
+- [ok] Variantes @min-* / @max-*
+- [ok] APIs de transformação 3D
+- [ok] APIs de gradiente
+- [ok] inset-shadow-* / inset-ring-*
+- [ok] Paleta de cores P3 modernizada
 - [~] Variante not-*
-- [~] Conclusão
+- [ok] Conclusão
