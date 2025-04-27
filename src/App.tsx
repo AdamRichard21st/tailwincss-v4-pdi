@@ -17,7 +17,7 @@ import Lesson11 from "./Lessons/Lesson11"
 const App = () => {
   return (
     <div className='bg-slate-200 min-h-screen'>
-      <div className="container max-w-4xl space-y-8 p-8">
+      <div className="container max-w-4xl space-y-8 p-4 lg:p-8">
         <Lesson01/>
         <Lesson02/>
         <Lesson03/>
