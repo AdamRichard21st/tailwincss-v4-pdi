@@ -15,7 +15,7 @@ export default function Lesson04() {
           Borders color is now css <Quote>currentColor</Quote> value by default 
           instead of previous <Quote>gray-200</Quote>. Check this out:
         </p>
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4">
           <span className="bg-underwave-dark text-red-400 border-4 rounded-full px-4 py-2">
             text-red-400
           </span>
@@ -42,7 +42,7 @@ export default function Lesson04() {
         <p>
           Similarly, placeholders color is now current text color at <Quote>50%</Quote> opacity by default (used to be <Quote>gray-400</Quote>).
         </p>
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4">
           <input className="bg-underwave-dark text-underwave-accent outline-0 px-4 py-2" placeholder="I'm a placeholder text" />
           <input className="bg-underwave-dark text-underwave-accent outline-0 px-4 py-2" placeholder="I'm a placeholder text" defaultValue="I'm a default text"/>
         </div>
