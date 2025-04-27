@@ -10,6 +10,7 @@ import Lesson05 from "./Lessons/Lesson05"
 import Lesson06 from "./Lessons/Lesson06"
 import Lesson07 from "./Lessons/Lesson07"
 import Lesson08 from "./Lessons/Lesson08"
+import Lesson09 from "./Lessons/Lesson09"
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Lesson06/>
         <Lesson07/>
         <Lesson08/>
+        <Lesson09/>
         <LessonBlock>
           <LessonTitle>
             Final considerations
