@@ -31,15 +31,17 @@ export default function Lesson07() {
             )}
           >
             <div className="bg-yellow-100 @container grid grid-cols-12 gap-4 p-4">
-              <div className="bg-underwave rounded-lg col-span-12 @sm:col-span-6 @lg:col-span-8 h-20"></div>
-              <div className="bg-underwave-accent rounded-lg col-span-12 @sm:col-span-6 @lg:col-span-4 h-20"></div>
+              <div className="bg-underwave rounded-lg col-span-12 @sm:col-span-6 @lg:col-span-8 h-20"/>
+              <div className="bg-underwave-accent rounded-lg col-span-12 @sm:col-span-6 @lg:col-span-4 h-20"/>
+              <div className="bg-discord-accent rounded-lg col-span-12 @max-sm:hidden h-20"/>
             </div>
           </ResizableBox>
         </div>
         <Code lines={[
           '<div className="@container grid grid-cols-12">',
-          '  <div className="col-span-12 @sm:col-span-6 @lg:col-span-8"></div>',
-          '  <div className="col-span-12 @sm:col-span-6 @lg:col-span-4"></div>',
+          '  <div className="col-span-12 @sm:col-span-6 @lg:col-span-8"/>',
+          '  <div className="col-span-12 @sm:col-span-6 @lg:col-span-4"/>',
+          '  <div className="col-span-12 @max-sm:hidden h-20"/>',
           '</div>',
         ]}/>
       </LessonBody>
